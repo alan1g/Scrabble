@@ -12,7 +12,7 @@ public class Scrabble
 	public static void main(String[] args)
 	{
 		 FileIO reader = new FileIO();
-		 String[] contents = reader.load("C://Users/Alan/workspace/Scrabble/src/scrabble/dictionary");
+		 String[] contents = reader.load("C://dictionary");
 		 Scanner scan = new Scanner(System.in);
 		 System.out.println("Press 1 if you want make a word out of letters");
 		 System.out.println("or Press 2 if you want build a word onto an existing word");
@@ -135,7 +135,7 @@ public class Scrabble
 }//end of main
 /**
  * A class to change the order of the Java Priority Queue Class to that of the length of string
- * @author Alan
+ * @author alan1g
  *
  */
 class MyComparator implements Comparator<String> 
